@@ -15,7 +15,7 @@ This plot visualizes the decision boundary learned by logistic regression using 
 
 - Blue vs Red regions represent different predicted classes.
 - The boundary reflects the weight vector `w` learned from the data.
-
+---
 - Implements logistic regression via **Newton's Method**.
 - Includes both naive (loop-based) and vectorized versions.
 - Visualization of decision boundaries.
