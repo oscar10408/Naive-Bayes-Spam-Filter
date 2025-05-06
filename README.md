@@ -27,7 +27,7 @@ The figure below shows the performance of a multinomial Naive Bayes classifier o
 
 - Bars or highlights may indicate the most informative words for classifying spam.
 - This demonstrates how simple probabilistic models can capture meaningful features in textual data.
-
+---
 - Classifies emails as spam or non-spam using multinomial Naive Bayes.
 - Includes Laplace smoothing and indicative token identification.
 - Visual output of classification results and word importance.
