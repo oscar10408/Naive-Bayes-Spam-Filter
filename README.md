@@ -7,11 +7,27 @@ This repository contains hands-on implementations of foundational machine learni
 ## 📦 Contents
 
 ### 1. Logistic Regression (`logistic_regression.py` / `.ipynb`)
+### 📉 Logistic Regression Decision Boundary
+
+This plot visualizes the decision boundary learned by logistic regression using Newton's method. The boundary separates two classes based on feature input:
+
+![Logistic Regression](./Images/logistic_regression.png)
+
+- Blue vs Red regions represent different predicted classes.
+- The boundary reflects the weight vector `w` learned from the data.
+
 - Implements logistic regression via **Newton's Method**.
 - Includes both naive (loop-based) and vectorized versions.
 - Visualization of decision boundaries.
 
 ### 2. Naive Bayes Spam Filter (`naive_bayes_spam.py` / `.ipynb`)
+The figure below shows the performance of a multinomial Naive Bayes classifier on spam vs non-spam emails, with indicative tokens extracted using log-likelihood ratios:
+
+![Naive Bayes Spam](./Images/naive_bayes_spam.png)
+
+- Bars or highlights may indicate the most informative words for classifying spam.
+- This demonstrates how simple probabilistic models can capture meaningful features in textual data.
+
 - Classifies emails as spam or non-spam using multinomial Naive Bayes.
 - Includes Laplace smoothing and indicative token identification.
 - Visual output of classification results and word importance.
